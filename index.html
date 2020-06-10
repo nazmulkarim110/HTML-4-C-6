@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>HW-HTML 4 of 5</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<!--Class: 07/06/2020-->
+<h1>Block-level Elements </h1>
+<h2>A block-level element always starts on a new line and takes up the full width available 
+(stretches out to the left and right as far as it can).
+</h2>
+
+The < div> element is a block-level element.
+Example
+< div>Hello World</ div>
+Block level elements in HTML:
+
+<textarea style="width: 80%">
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+</textarea>
+
+
+
+<h1>Inline Elements</h1> <br>	
+<h2>An inline element does not start on a new line and only takes up as much width as necessary.
+</h2>
+
+This is an inline < span> element inside a paragraph.
+
+Example
+< span>Hello World</ span>
+Inline elements in HTML:
+
+<textarea style="width: 80%">
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp>< script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+</textarea>
+
+
+
+
+<h1>The display Property in CSS</h1>
+<h2>The display property specifies how an element is displayed.</h2>
+
+<span>
+Example
+Use of some different display values:
+
+<h4> ex: {display: none;}= The element is completely removed </h4>
+<h4> ex: {display: inline;}= Displays an element as an inline element (like < span>). Any height and width properties will have no effect</h4>
+<h4> ex: {display: block;}= Displays an element as a block element (like < p>). It starts on a new line, and takes up the whole width</h4>
+<h4> ex: {display: inline-block;}= Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values</h4>
+</span>
+
+
+
+
+
+
+<h1>CSS Margins</h1>
+<h2>The CSS margin properties are used to create space around elements, outside of any defined borders.
+CSS have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+</h2>
+
+<p>Margin - Individual Sides
+CSS has properties for specifying the margin for each side of an element:<br>
+
+margin-top <br>
+margin-right <br>
+margin-bottom <br>
+margin-left <br> <br>
+
+All the margin properties can have the following values: <br>
+
+auto - the browser calculates the margin <br>
+length - specifies a margin in px, pt, cm, etc. <br>
+% - specifies a margin in % of the width of the containing element <br>
+inherit - specifies that the margin should be inherited from the parent element <br>
+
+<strong>Tip: Negative values are allowed.</strong>
+</p>
+
+
+<h1>CSS Padding</h1>
+
+
+<!-- HTML TAGs FROM W3SCHOOL -->
+
+		<h1>HTML TAGs FROM W3SCHOOL</h1>
+
+		<table>
+			<tr>
+				<th>Tag Element</th>
+				<th>Description</th>
+				<th>Example</th>
+			</tr>
+			<tr>
+				<td>< kbd></td>
+				<td>Defines keyboard input</td>
+				<td><p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p></td>
+			</tr>
+			<tr>
+				<td>< label></td>
+				<td>Defines a label for an < input> element</td>
+				<td><form action="/action_page.php">
+  					<label for="male">Male</label><input></td>
+			</tr>
+			<tr>
+				<td>< legend></td>
+				<td>Defines a caption for a < fieldset> element</td>
+				<td><form action="/action_page.php">
+					 <fieldset>
+					  <legend>Personalia:</legend>
+					  <label for="fname">First name:</label>
+					</td>
+			</tr>
+			<tr>
+				<td>< li></td>
+				<td>Defines a list item</td>
+				<td><ol>
+					  <li>Coffee</li>
+					  <li>Tea</li>
+					 </ol>
+					</td>
+			</tr>
+			<tr>
+				<td>< link></td>
+				<td>Defines the relationship between a document and an <br> external resource (most used to link to style sheets)</td>
+				<td>< link rel="stylesheet" href="styles.css"></td>
+			</tr>
+						<tr>
+				<td>< main></td>
+				<td>Specifies the main content of a document</td>
+				<td>< main>Most Popular Browsers< /main></td>
+			</tr>
+			<tr>
+				<tr>
+				<td>< map></td>
+				<td>Defines an image-map</td>
+				<td>#</td>
+			</tr>
+			<tr>
+				<td>< mark></td>
+				<td>Defines marked/highlighted text</td>
+				<td><mark>This is marked text</mark></td>
+			</tr>
+			<tr>
+				<td>< meta></td>
+				<td>Defines metadata about an HTML document</td>
+				<td>< meta charset="utf-8"></td>
+				
+			</tr>
+			<tr>
+				<td>< textarea></td>
+				<td>
+					Defines a multiline input control (text area)
+				</td>
+				<td>
+					<textarea id="demo" name="demo" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>< script></td>
+				<td>The < script> tag is used to embed a client-side script (JavaScript).Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</td>
+				<td> < script> document.getElementById("demo").innerHTML = "Hello JavaScript!";</script> </td>
+			</tr>
+			<tr>
+				<td><p></td>
+				<td>Defines a paragraph</td>
+				<td>
+					<p>This is some text in a paragraph.</p>
+
+				</td>
+			</tr>
+					
+			<tr>
+				<td>< option></td>
+				<td>
+					Defines an option in a drop-down list
+
+				</td>
+				<td><label for="cars">Choose a car:</label>
+
+				<select id="cars">
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="opel">Opel</option>
+  					<option value="audi">Audi</option>
+				</select></td>
+			</tr>
+			
+			<tr>
+				<td>< optgroup></td>
+				<td>Defines a group of related options in a drop-down list
+</td>
+				<td><label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select></td>
+			
+			</tr>
+
+			<tr>
+				<td>< summary></td>
+				<td>
+					 Defines a visible heading for a < details> element
+				</td>
+				<td><details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details></td>
+			</tr>
+			<tr>
+				<td>< strong></td>
+				<td>Defines important text</td>
+				<td>This is an <strong>important</strong>text</td>
+			</tr>
+			
+			<tr>
+				<td> < time></td>
+				<td>Defines a specific time (or datetime)</td>
+				<td><p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p></td>
+			</tr>
+
+			<tr>
+				<td>< wbr></td>
+				<td>Defines a possible line-break</td>
+				<td><p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+
+			</tr>
+				</table>
+
+
+
+
+
+
+</body>
+</html>
